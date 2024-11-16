@@ -1,0 +1,31 @@
+Day 03: QA Skills, Career Path in QA:
+
+->         Software Tester Skills:
+           ↙                    ↘
+Technical Domain             Business Domain
+   ↥----------------------------------↥
+    Hard Skills     ↥      Soft Skills
+        QA Engineer / Test Engineer
+
+-> Soft vs Hard Skills:
+   i) Soft Skills:
+      a) Interpersonal,
+      b) Communication,
+      c) Proactivity,
+      d) Conflict resolution,
+      e) Ability to work under pressure,
+      f) Sense of leadership,
+      g) Ownership,
+      h) Analytical ability.
+   ii) Hard skills:
+       a) Basic QA concept: Testing Principles, testing process, testing mindset, test levels, test types.
+       b) Basic programming knowledge: programming logic and basic knowledge in some programming languages.
+       c) Basic database knowledge: SQL commands.
+       d) Test automation: Selenium, Appium, TestProject
+       e) Test techniques: Black box techniques, white box techniques, exploratory testing, testing heuristics.
+       f) Test tools: Test case management tools, bug trackers.
+
+-> Career Path for Software Tester/QA:
+   Trainee Tester ↦ Software Tester ↦ QA Analyst ↦ Software Test Engineer ↦ QA Team Coordinator ↦ Test Manager ↦ Senior Test Manager
+
+-> Software Testing: To check whether the Actual software product matches Expected requirements and to ensure that software product is Defect free.

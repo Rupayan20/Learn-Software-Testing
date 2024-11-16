@@ -1,0 +1,64 @@
+Day 06: Integration Testing in Software Testing:
+
+-> Integration Testing: Type of software testing where individual units or components of a software are tested Combined.
+   Software modules are integrated logically and tested as a group.
+
+   i) Integration Testing performed between 2 or more modules.
+   ii) Integration Testing focuses on checking data communication between multiple modules.
+   iii) Integrated Testing is white box testing technique.
+
+-> Types of Integration Testing:
+   i) Incremental and
+   ii) Big Bank Approache
+
+-> Big Bank Approache: All the components or modules are integrated together at once and then tested as a unit.
+   Advantages: i) Convenient for small systems.
+   Disadvantages: i) We might miss data flow between some of the modules.
+                  ii) If we find any defect we can't understand the root cause of defect.
+                  iii) Some interfaces link to be tested could be missed easily.
+                  iv) Since the integration testing can commence only after "all" the modules are designed, the testing team will have less time for execution in the testing phase.
+                  v) High risk critical modules are not isolated and tested on priority.
+
+-> Incremental Integration Testing: Testing is done by integating two or more modules that are logically related to each other and then tested for proper functioning of the application.
+   Then the other related modules are integrated incrementally and the process continues until all the logically related modules are integrated and tested successfully.
+   Two types: i) Top Down Approache,
+              ii) Bottom Up Approache.
+
+-> Top Down Integration Testing: We will add the modules incrementally or one by one and test the data flow in similar order as we can see in the below diagram:
+                  A -> Parent Module
+                  ↧
+                  B -> Child A Module
+                  ↧
+                  C -> Child B Module
+                  ↧
+                  D -> Child C Module
+    
+    Advantages: i) In this, the early prototype is possible.
+                ii) Fault Localization is easier.
+    
+    Disadvantages: i) Lower-level modules are tested ineffectively.
+                   ii) Due to the high number of stubs, it gets pretty complicated.
+                   iii) critical modules are tested first so that fewer chances of defects.
+
+-> Bottom Up Integration Testing: Low lower-level modules are tested with higher-level modules until all the modules have been tested successfully.
+                  A -> Child C Module
+                  ↥
+                  B -> Child B Module
+                  ↥
+                  C -> Child A Module
+                  ↥
+                  D -> Parent Module
+
+    Advantages: i) We do not need to wait for the development of all the modules as it saves time.
+                ii) identification of defects is easy.
+
+    Disadvantages: i) Compulsory modules are tested to which the defects can occur.
+                   ii) There is no possibility of 
+
+-> Difference between Top-Down Integration Testing and Bottom-Up Integration Testing:
+   i) In top-down integration testing, We will add the modules incrementally or one by one and test the data flow in similar order.
+      But in the bottom-up integration testing,Low lower-level modules are tested with higher-level modules until all the modules have been tested successfully.
+   ii) The top-down integration testing approach will be executed on the Structure or procedure-oriented programming language.
+       But the bottom-up integration testing approach will be executed on Object-oriented programming language.
+   iii) In the top-down approach, the observation of test output is more complicated.
+        But in the bottom-up approach, the observation of test output is more accessible.

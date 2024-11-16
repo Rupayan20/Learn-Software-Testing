@@ -1,0 +1,58 @@
+Day 10: Use Case Testing In Software Testing 
+
+-> What is Use Case?
+Ans> - Means User interaction and its Behaviours.
+     - How System Respond to User Actions.
+     - Its a Document of the Actions performed by User and how system behaved on it.
+
+-> Elements in Use Case:
+   i) Description,
+   ii) Actor,
+   iii) Pre Condition,
+   iv) Action (a. Basic Flow, b. Alternate Flow, c. Exception Flow),
+   v) Post Condition
+
+-> Types of Use Cases:
+   i) Basic use cases: These are simple and straightforward use cases that test the most fundamental functionality of a system.
+      There are typical the first use cases to be tested, as they provide a baseline for the overall functionality of the system.
+
+   ii) Alternative use cases: These are use cases that test alternative or exception paths within the system such as error handling or alternative input values.
+
+   iii) Boundary use cases: These are use cases that test the limits or boundaries of the system, such as maximum or minimum input values, or the handling f large or complex data sets.
+
+   iv) Negative use cases: These are use cases that test the system's ability to handle invalid or correct input, or to detect and prevent errors or security vulnerabilities.
+
+   v) Integral use cases: These are use cases that test how the system integrates with systems or processes, such as data import/export or API integration.
+
+   vi) Performance use cases: These are use cases that test the system's performance and scalability, such as response time and resource usage under different load conditions.
+
+   vii) Another few Sunny Day vs Rainy Day.
+        a) Sunny day use cases, also known as "happy path" or "normal" use cases.
+        b) Rainy day use cases, also known as "exceptional" or "negative" use cases, test the system's ability to handle abnormal or unexpected conditions.
+
+-> How to write Use Cases?
+Ans> i) What's the primary use for the customer?
+     ii) A strong Use Case can impress the audience even if they have minor mistakes.
+     iii) This is an iterative process, which means when we write them for the first time it won't ne perfect.
+
+-> Example:
+E-Commerce Website/Application:
+ i) Actors -> Buyer, Sellers, Wholesale Dealers, Auditors, Suppliers, Distributors, Customers etc.
+ ii) Actions -> Sign up, Login, Searech, Product Add/Buy etc.
+
+-> What is Use Case Testing:
+   i) It ensures that the path used by the user is working as intended or not. It makes sure that the user can accomplish the task successfully.
+   ii) No Relation with the Quality.
+   iii) Type of end-to-end testing.
+   iv) It will find out the defects in integration testing.
+   v) Test case template (template link: https://sdet.live/tc-template).
+   vi) Login to App.vwo.com
+   vii) Actors -> User, Admin, Sub Admin, Editor, Manager
+   viii) Pre Condition -> Login page is loaded.
+   ix) Post Condition -> User should be logged in.
+
+-> Example of Use Cases: Main Scenarios -> Steps
+                                    a. Valid U and Valid P
+                                    b. Valid U and Invalid P
+                                    c. Invalid U and Valid P
+                                    d. Invalid U and Invalid P

@@ -1,0 +1,10 @@
+Day 12: Performance Testing and It's Types With Real life Examples
+
+-> Performance Testing: Performance testing is a software testing technique that evaluates how well an application performs under different conditions, such as different user loads, data volumes, and network environments.
+   Check Stability and Response Time based on Conditions.
+
+-> Types of Performance Testing:
+  i) Load Testing: Load testing is a type of testing which involves evaluating the performance of the system under the expected workload.
+  ii) Stress Testing: Stress testing is a type of performance testing where we evaluate the application's performance at load much higher than the expected load.
+  iii) Spike Testing: In Spike testing, we analyze the behavior of the system on suddenly increasing the number of users.
+  iv) Volume Testing: The Volume testing is performed by feeding the application with a high volume of data.

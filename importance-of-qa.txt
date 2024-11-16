@@ -1,0 +1,35 @@
+Day 04: Why Software Testing is Important & Its Benefits:
+
+-> Why Software Testing is Important?
+Ans> It improves consistency and performance.
+
+-> Benefits of Software Testing:
+   i) Cost-Effective,
+   ii) Product Quality,
+   iii) Customer Satisfaction.
+
+-> Types of Testing:                  
+                                                             Testing
+                                                                ↧
+                                        ↙↤↤↤↤↤↤↤↤↤↤↤↤↤↤   ↦↦↦↦↦↦↦↦↦↦↦↦↦↦↘ 
+                                 Manual Testing                               Automation Testing
+                                       ↧
+                              ↙↤↤↤   ↧   ↦↦↦↘  
+                       White Box   Black Box   Gray Box
+                        Testing     Testing     Testing
+                                       ↧
+                      ↙↤↤↤↤↤↤↤↤↤↤ ↦↦↦↦↦↦↦↦↦↦↦↘                 
+    Functional Testing                                    Non-Functional Testing
+            ↧                                                      ↧
+ Unit   Integration   System                    Performation   Usability   Compatibility 
+Testing   Testing     Testing                     Testing       Testing       Testing
+             ↧                                       ↧
+         ↙       ↘                            ↙     ↧     ↘         
+Incremental      Non-Incremental           Load   Stress   Stability 
+  Testing            Testing              Testing Testing   Testing
+
+-> Levels of Testing:
+   i) Unit Testing,
+   ii) Integration Testing,
+   iii) System Testing,
+   iv) Acceptance Testing.

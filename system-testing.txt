@@ -1,0 +1,59 @@
+Day 07: System Testing in Software Testing:
+
+-> System Testing: System testing is a testing level in which tests are performed to know if a complete build aligns with functional and non-functional requirements made for it.
+                Testing over all functionalities of the application with respective client requirements.
+                It is a black box testing technique.
+                This testing is conducted by testing team.
+                After completion of component and integration level testing's we start System Testing.
+                Before conducting system testing we should know the customer's requirements.
+                System Testing focus on:
+                   i) User Interface Testing (GUI)
+                   ii) Functional Testing
+                   iii) Non-functional Testing
+                   iv) Usability Testing
+
+-> System Testing Types:
+   i) Documentation Testing,                  vii) Interoperability Testing,
+   ii) Security Testing,                      viii) Performance Testing,
+   iii) Usability Testing,                    ix) Load and Stability Testing,
+   iv) Installation Testing,                  x) Scalability Testing, 
+   v) functionality Testing,                  xi) Reliability Testing,
+   vi) Recoverability Testing,                xii) Regression Testing
+
+-> System Testing Process: System Testing is performed in the following steps:
+   i) Test Environment Setup: Create testing environment for the better quality testing.
+   ii) Create Test Case: Generate test case for the testing process.
+   iii) Create Test Data: Generate the data that is to be tested.
+   iv) Execute Test Case: After the generation of the test case and the test data, test cases are executed.
+   v) Defect Reporting: Defects in the system are detected.
+   vi) Regression Testing: It is carried out to test the side effect of the testing process.
+   vii) Log Defects: Defects are fixed in this step.
+   viii) Retest: If the test is not successful, then again test is performed.
+
+-> Types of System Testing:
+   i) Performance Testing: Performance testing is a type of software testing that is carried out to test the speed, scalability, Stability and reliability of the software product or application.
+   ii) Load Testing: Load testing is a type of software testing which is carried out to determine the behavior of a system or software product under extreme load.
+   iii) Stress Testing: stress testing is a type of software testing performed to check the robustness of the system under the varying loads.
+   iv) Scalability Testing: Scalability testing is a type of software testing which is carried out to check the performance of the software application or system in terms of its capability to scale up or scale down the number of user request load.
+
+-> Tools used for System Testing:
+   i) JMeter,
+   ii) Gallen Framework,
+   iii) Selenium
+
+-> Types of System Testing:
+   i) Usability Testing: Focus on how useful application is Accessibility. UX Test. 
+      a) Easy, b) User friendly.
+   ii) UI Testing: UI elements+color.
+   iii) Functional Testing: Behavior.
+   iv) Non-Functional Testing: Aparts from behavior, how much it can handle, how many (Exceptions)
+
+-> Functional Testing: a) Web and b) Mobile
+   i) Properties of elements: Focus selection, disable enable, visible links.
+   ii) Web Application: Links, Cookies, Sessions, Authorization, Errors, Logs.
+   iii) Database Testing: Proper data stored. Transactions (Data Manipulation Language), DML -> Insert, Update, Delete
+                          Functions, Procedures,Triggers, Indexes, Table, Column, Table Relationship
+
+   Proper Errors Handling,
+   Proper Links (Internal, External Broken)
+   Cookies & Session

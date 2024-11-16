@@ -1,0 +1,121 @@
+Day 08: Functional Testing And Non Functional Testing
+
+-> Functional Testing: Behavior Testing
+
+-> Testing the functionali' of the Application:
+   i) Testing Behavior of AUT (Application Under Test)
+   ii) Test Data -> Input -> Check How AUT behave
+
+-> Types of Functional Testing:
+   i) Smoke Testing,
+   ii) Sanity Testing,
+   iii) Integration Testing,
+   iv) Regression Testing,
+   v) Localization,
+   vi) Unit Testing
+
+-> Smoke Testing: It is a testing of unstable build.
+   i) Critical Functionality Checking,
+   ii) Build Verification Testing.
+
+-> Sanity Testing: It is a part of basic testing.
+   i) Basic Functional,
+   ii) Stable Builds (install works)
+
+-> Integration Testing: Integration testing is known as the second level of the software testing process, following unit testing. Integration testing involves checking individual components or units of a software project to expose defects and problems to verify that they work together as designed.
+
+-> Regression Testing: Regression Testing is a type of testing in the software development cycle that runs after every change to ensure that the change introduces no unintended breaks. Regression testing addresses a common issue that developers face — the emergence of old bugs with the introduction of new changes.
+                       Verification of dependent module/modified modules that should not impact other modules.
+                       -> Types of Regression testing: 
+                          i) Unit Regression (Few Unit Modules),
+                          ii) Regional Regression (Dependent Module),
+                          iii) Full Regression (Every Module is impacted)
+
+-> Unit Testing: Unit Testing is a kind of white box testing, whereas Integration Testing is a kind of black-box testing. For Unit Testing, accessibility of code is required, as it tests the written code, while for Integration Testing, access to code is not required, since it tests the interactions and interfaces between modules.
+
+-> Functional Testing Cycle: This technique is called Black Box Technique.
+
+            Coverage Analysis     ↣     Requirement Analysis
+             ↗                              ↘
+Defect Management                         Test Planning
+       ↥                                        ↧
+ Test Execution                          Test Case Design
+             ↖                               ↙
+                     Traceability Matrix
+
+-> Functional Testing Pyramid:
+    User Acceptance Testing
+             ↥
+       System Testing
+             ↥     
+     Regression Testing
+             ↥
+        Smoke Testing
+             ↥
+     Integration Testing
+             ↥
+        Unit Testing
+
+
+-> Non-Functional Testing (Separate Team): End-users' Expectation
+   i) Performance Testing: a) Speed
+                           b) Load -> Number of users increase, check speed.
+                           c) Stress -> Suddenly number of users increase, check speed.
+                           d) Volume -> Size (How much data can handle)
+
+   ii) Security Testing: How Secure?
+            Authentication (Valid users or not?)
+                 vs
+            Authorization (Permissions)
+
+   iii) Recovery Testing: Can we recover something?
+            Data -> Excel -> Recovered Doc
+
+        Checking if Net Down/Light off -> Normal State
+
+   iv) Compatibility Testing: Suppose abc application is compatible for Windows XYZ version only (LIke: Wind10 or Win11)
+                      Compatibility Testing
+                      ↙         ↧         ↘
+Backward Compatibility       Hardware      Forward Compatibility 
+    Testing           Compatibility Testing     Testing
+
+-> Backward Compatibility Testing: Backward compatibility is the ability of a system, device, or software to work with older versions or iterations. It ensures that new versions are designed to be compatible with older versions, allowing for seamless integration.
+
+-> Forward Compatibility Testing: Forward compatibility is a design feature that allows a system to work with future versions of itself without requiring any changes or modifications. It's also known as upward compatibility. 
+
+-> Hardware Compatibility Testing: Hardware compatibility refers to whether a device or component can work with another device or component, or with an operating system, without causing errors or performance issues.
+
+-> Installation Testing: check if install -> Easy
+                         check uninstall
+
+-> Sanitation/Garbage Testing: anitation/Garbage Testing involves checking for unnecessary or leftover data in the system. It ensures that the software cleans up after itself and doesn't leave unused or "garbage" data behind.
+
+
+-> Difference between Functional Testing and Non-Functional Testing:
+|------------------------------------------------------------------------------------------------------------------------
+|i) Test the functionality of the software.                 | i) Test the non-functional aspects or readiness of the     |
+|                                                           | software including performance, usability, reliability.    |
+|-----------------------------------------------------------|------------------------------------------------------------|
+|ii) It has to be done before non-functional testing.       | ii) It will be done after Functional testing completes.    |
+|-----------------------------------------------------------|------------------------------------------------------------|
+|iii) It is also called as Behavioural testing and focuses  | iii) Focuses on the performance of the application.        |
+|on the underlying application features.                    |                                                            |
+|-----------------------------------------------------------|------------------------------------------------------------|
+|iv) It can be done manually, though test cases can be      | iv) It's hard to do it manually. It usually need already   |
+|automated once application is stable.                      | existing applications to measure and test application      |
+|                                                           | performance.                                               |         
+|-----------------------------------------------------------|------------------------------------------------------------|
+|v) Types of Functional Testing includes Unit Testing, Smoke| v) Types of Non-Functional Testing includes Volume Testing,|
+|Testing, Integration Testing, Regression Testing, System   | Load Test, Load Testing, Stress Testing, Recovery Testing, |
+|Testing, User Acceptance Testing.                          | Scalability Testing, Security Testing.                     | 
+|-----------------------------------------------------------|------------------------------------------------------------|
+|vi) Test data can be prepared using the business or        | vi) Test data can be prepared using the performance        |
+|functional requirements of the application.                | requirements of the application.                           |
+|-----------------------------------------------------------|------------------------------------------------------------|
+|vii) Testing tools used for functional testing includes UFT| vii) Testing tools used for non-functional testing includes|
+|(Previously QTP), Selenium, Ranorex, Telerik Test Studio,  | JMeter, LoadRunner, WebLOAD, NeoLoad, LoadComplete.        |
+|Micro Focus, Sahi, TestComplete, IBM Rational.             |                                                            |
+|-----------------------------------------------------------|------------------------------------------------------------|
+|viii) Example Test Case: Test whether the user is able to  | viii) Example Test Case: Time required to load the home    |
+|login to the application.                                  | page.                                                      |
+|-----------------------------------------------------------|------------------------------------------------------------|

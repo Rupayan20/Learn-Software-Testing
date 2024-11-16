@@ -1,0 +1,24 @@
+Day 05: Types of Testing in Software- Integration and Unit Testing
+
+-> Testing Pyramid:
+
+              -
+          E2E Tests
+      - - - - - - - - -    
+      Integration Tests
+  - - - - - - - - - - - - - 
+         Unit Tests
+ - - - - - - - - - - - - - - - 
+       [Manual Tests]
+
+-> Unit Testing: Type of software testing where individual units or components of software are tested.
+   Unit tests help to fix bugs early in the development cycle and save costs.
+   A developer writes a section of code in the application just to test the function. They would later comment out and finally remove the test code when the application is destroyed.
+   A coder generally uses a UnitTest Framework to develop automated test cases.
+
+-> Code coverage techniques used in Unit Testing:
+   i) Statement Coverage,
+   ii) Decision Coverage,
+   iii) Branch Coverage,
+   iv) Condition Coverage,
+   v) Finite State Machine Coverage.

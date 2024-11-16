@@ -1,0 +1,44 @@
+Day 02: What is Software Testing?
+
+-> What is Software?
+Ans> Software is basically a set of instructions or commands that tells a computer what to do.
+
+-> Types of Softwares:
+   i) System Software: Device drivers, Operating Systems, Servers, Utilities, etc.
+   ii) Programming Software: Compilers, Debuggers, Interpreters, etc.
+   iii) Application Software: Web Applications, Mobile Apps, Desktop Applications etc.
+
+-> System Software: System software basically controls a computer's internal functioning and also controls hardware devices such as monitors, printer, and storage devices, etc.
+   Example: Operating System, Language Processor, Device Driver.
+   Written in a low level language.
+
+-> Application Software: Application software is designed to perform a specific task for end users.
+   It is a product or a program that is designed only to fulfill end-users' requirements.
+   Example: General Purpose Software (MS Word, MS Excel, Powerpoint, etc),
+            Customized Software (airline reservation system),
+            Utility Software (antivirus, disk fragmenter, memory tester, disk repair, disk cleaners).
+   Written in a high level language.
+
+-> What is Software Testing?
+Ans> Software Testing is the process of evaluating and verifying that a software product or application does what it is supposed to do.
+     Software Testing is a part of Software development process.
+
+-> Main Objective: Main Objective of testing is to release quality product to the client.
+                   Activity to detect and identify the defects in the Software. (Not Fix)
+
+-> What are software testing objectives and purpose?
+Ans> i) Finding defects,
+     ii) TO prevent defects,
+     iii) Gaining confidence in and providing information about the level of quality,
+     iv) Ensure that it satisfies the BRS that is Business Requirement,
+     v) End result meets the business and user requirements,
+     vi) Gain the confidence of the customers by providing them a quality product.
+
+-> Quality: Quality is defined as justification of all the requirements of a customer in a product.
+
+-> Quality Software: Quality software is means
+                     i) Bug-free,
+                     ii) Delivered on time,
+                     iii) Within budget,
+                     iv) Meets requirements and/or expectations,
+                     v) Maintainabile.

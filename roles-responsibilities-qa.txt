@@ -1,0 +1,25 @@
+Day 11: Roles and Responsibilities Of Manual Tester
+
+-> Manual Tester Roles and Responsibilities:
+   i) Gather requirements from team.
+   ii)  Prepare Test Plan, Test Scenarios, Test Cases.
+   iii) Varifying the Software Web/App by Hand.
+   iv) Execute the Test Cases and Report Bugs.
+   v) Send Test report to stakeholders.
+   vi) More concentrated on the UI/UX issues.
+   vii) In charge of paperwork (aka documentation online).
+
+-> Overall Roles and Responsibilities:
+   i) Test environment setup.
+   ii) Participation in meetings.
+   iii) Analysis of customer requests.
+   iv) Software Bug Tracking.
+   v) Analysis and execution of test cases.
+   vi) Maintaining contact with test managers.
+
+-> What we do can extra as Manual Tester?
+   i) Help in preparing the requirements to PM.
+   ii) Share a Video or Images of the Manual flows to automation team, so that they can create better automation.
+   iii) Help the team PM, Devs to sync and come with timelines of release.
+   iv) Learn coding and help in automation of the flows manual tested.
+   v) Identify the automation flows and pain manual areas automate them using scripts.

@@ -1,0 +1,63 @@
+Day 01: Learn Software Testing as Absolute Beginner to Advanced:
+
+-> Roadmap:
+1. Fundamentals of Testing:
+   i) Introduction to Software Testing,
+   ii) Software Testing Myths,
+   iii) Software Testing Principles,
+   iv) Software Testing Terms,
+   v) More Software Testing Terms,
+   vi) What Are High Level Requirements,
+   vii) How to create a High Level Requirements,
+   viii) Testing Principles
+   
+2. Software Development Model:
+   i) Waterfall Model,
+   ii) Iterative Model,
+   iii) V-Model,
+   iv) Spiral Model,
+   v) Agile Scrum Model
+
+3. STLC (Software Testing Life Cycle):
+   i) Test Case Design Development and Cycle Closures,
+   ii) STLC with Example
+
+4. State vs Dynamic Testing
+
+5. Levels of Testing:
+   i) Black Box, White and Grey Box Testing:
+      a) Black Box Testing, 
+      b) White Box Testing
+   ii) Functional Testing:
+       a) Unit Testing, 
+       b) Smoke Testing, 
+       c) Sanity Testing, 
+       d) Integration Testing, 
+       e) White Box Testing, 
+       f) Black Box Testing, 
+       g) User Acceptance Testing, 
+       h) Regression Testing
+   iii) Non-Functional Testing:
+        a) Performance Testing, 
+        b) Load Testing,
+        c) Volume Testing,
+        d) Stress Testing,
+        e) Security Testing,
+        f) Installation Testing,
+        g) Penetration Testing,
+        h) Compatibility Testing,
+        i) Migration Testing
+   iv) End-to-End Testing
+   v) Sanity Testing
+   vi) Smoke Testing
+
+6. Test Management:
+   i) Create Test case,
+   ii) Add to JIRA Zephyr,
+   iii) Execution,
+   iv) How to write a Test Case Scenario
+
+7. Defect Management:
+   i) How to Create a Defect and Log it
+   ii) How to use a Defect Tracking tool to capture Defects
+   iii) How to track and manage Open Defects in Bugzilla

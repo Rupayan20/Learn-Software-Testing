@@ -1,0 +1,29 @@
+Day 13: STLC in Software Testing
+
+-> Software Testing Life Cycle (STLC): StLC is a sequence of different activities performed during the software testing process.
+
+-> Process:
+   Requirement Analysis -> Test Planning -> Test Case Development -> Test Environment Setup -> Test Execution -> Test Closure
+
+|----------------|-----------------------------|-------------------------|----------------------|--------------------------------------------------------------------|
+|    Phase       |        Documents            |           Who?          |       Out Docs       |                         What to do?                                |
+|----------------|-----------------------------|-------------------------|----------------------|--------------------------------------------------------------------|
+|Test Planning   |   Project Plan,             |    Test Lead/Team Lead  |  Test Plan Document  | Identify the Resources, Team Formation, Team Estimation,           |
+|                |   Functional Requirements   |    Test Manager         |                      | Prepartion of Test Plan. Reviews on Test Plan, Test Plan Sign-off  |
+|----------------|-----------------------------|-------------------------|----------------------|--------------------------------------------------------------------|
+|Test Designing/ |   Test Plan, Project Plan   |    Test Lead/Team Lead  | Traceability Matrix, | Prepartion of Test Scenarios, Prepartion of Test Cases,            |
+|Development     |   Design Docs, Functional   |    Test Engineers       | Test Case Document   | Reviews on Test Cases, Traceability Matrix, Test Cases Sign-off    |   
+|                |   Requirements              |                         |                      |                                                                    |
+|----------------|-----------------------------|-------------------------|----------------------|--------------------------------------------------------------------|
+|Test Environment|   Functional Requirements,  |    Test Lead/Team Lead  | Status Test/         | Environment Setup, Executing Test Cases,                           |
+|Setup           |   Test Cases, Build from    |    Test Engineers       | Reports              | Prepartion Test Report/Test Log,                                   |
+|                |   Development Team          |                         |                      | Identifying Defects                                                |
+|----------------|-----------------------------|-------------------------|----------------------|--------------------------------------------------------------------|
+|Test Execution  |   Test Cases,               |    Test Lead/Team Lead  | Defect Report        | Environment Setup, Executing Test Cases,                           |
+|                |   Test Reports/Test Log     |    Test Engineers       |                      | Prepartion Test Report/Test Log,                                   |
+|                |                             |                         |                      | Identifying Defects                                                |
+|----------------|-----------------------------|-------------------------|----------------------|--------------------------------------------------------------------|
+|Test Closure    |   Test Reports,             |    Test Manager         | Test Summary Reports | Prepartion of Defect Report, Reporting Defects to Developers,      |
+|                |   Defect Reports            |    Test Engineers       |                      | Analyzing Test Reports, Analyzing Bug Reporting,                   |
+|                |                             |                         |                      | Evaluating Exit Criteria                                           | 
+|----------------|-----------------------------|-------------------------|----------------------|--------------------------------------------------------------------|

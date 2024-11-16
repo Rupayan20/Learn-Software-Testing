@@ -1,0 +1,68 @@
+Day 09: SDLC Life Cycle Tutorial For Beginners
+
+-> Software Development Life Cycle: Software Development Life Cycle (SDLC) is a process used by the software industry to design, develop and test high quality softwares.
+   ISO/IEC 12207 is an international standard for software life-cycle processes. It aims to be the standard that defines all the tasks required for developing and maintaining software.
+
+                       Planning  
+                   ↗              ↘
+        Development                 Defining
+            ↥                           ↧
+         Testing                     Designing
+                ↖                   ↙                 
+                       Building 
+                        [SDLC]
+
+   a) Planning and Requirement Analysis: 
+      - It is performed by the senior members of the team with inputs from the customer.
+      - Sales department, market surveys and domain experts in the individual.
+
+      Documents - Statement of Work, Project Plan
+
+      Outcome - Various Technical approaches that can be followed to implement the project successfully with minimum risks.
+    
+    b) Defining Requirements:
+       - Define and document the product requirements and get them approved from the customer or the market analysis.
+
+       Documents: SRS (Software Requirement Specification) document
+
+       Consist of all the product requirements to be designed and developed during the project life cycle.
+
+    c) Designing:
+       - Based on the requirements specified in SRS, usually more than one design approach for the product architecture is proposed and documented in a DDS (Design Document Specification).
+
+       Document: DDS
+
+       A design approach clearly defines all the architectural modules of the product along with it's communication and data flow representation.
+
+    d) Building:
+       - The programming code is generated as per DDS during this stage.
+
+       Document: FRDs (Functional Required Documents)
+
+       Developer must follow the coding guidelines defined by their organization and programming tools like compilers, interpreters, debuggers.
+
+    e) Testing:
+       - The stage refers to the testing only stage of the product where product defects are reported, tracked, fixed and retested, until the product reaches the quality standards defined in the SRS.
+
+       Documents: multiple Documents
+
+       Full STLC Life Cycle
+
+    f) Deployment:
+       - Once the product is tested and ready to be deployed it is released formally in the appropriate market.
+
+       Document: NA
+
+       The product may first be released in a limited segment and tested in the real business environment (UAT: User Acceptance Testing).
+
+-> What i BRD?
+Ans> Business Requirement Document i.e. BRD i created during the initial phase of the project. This document contains the high-level business requirements that could be easy to follow by business stakeholders, managers, board of directors. etc.
+     A business requirement document is a functional business requirement that is written in a well-structured manner with any technical jargon.
+
+-> What is FRD?
+Ans> Functional Specification Document is required with detailed requirements in technical terms that will be reffered by the technical team for further development of the system.
+
+-> What is SRS?
+Ans> Software Requirement Specification Document i.e. SRS Document is one of the important documents for the development team. It is a complete description of the behavior of a system to be developed.
+     SRS document contains all the functional and non-functional requirements along with the use cases that the software must meet.
+     Software specification requirement document elaborates on the business requirements mentioned in BRD to accommodate the functional and non-functional requirements along with user intersections with the system i.e. use cases.
